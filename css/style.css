@@ -1,0 +1,149 @@
+body{
+	background-image: linear-gradient(#636163, #b1afaf);
+	height: 122vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+*{
+	margin: 0px; padding: 0px;
+}
+.principal{
+	background-color: white;
+	height: auto;
+	width: 650px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 60%;
+}
+.izquierda{
+	background-color: #6444cd;
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.derecha{
+	width: 450px;
+	float: left;
+}
+.foto-de-perfil{
+	height: 180px;
+	width: 180px;
+	background-color: #ddd;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	border: 10px solid #f6ae42;
+	box-shadow: 6px 7px 9px 5px #cb993573;
+}
+.foto-de-perfil img{
+	width: 100%;
+	border-radius: 50%;
+}
+.caja1{
+	position: relative;
+}
+.heading{
+	background-color: #3142db;
+	padding: 10px;
+	color: #f2f1f5;
+	text-align: left;
+	padding-left: 20px;
+	margin-right: -15px;
+}
+.heading::after{
+	content: '';
+	position: absolute;
+	width: 21px;
+	height: 18px;
+	background-color: #5a5959;
+	left: 191px;
+	top: 26px;
+	transform:rotate(56deg);
+	z-index: -1;
+}
+.p1{
+	padding: 9px 10px;
+	font-size: 11px;
+}
+.icono1{
+	font-size: 16px!important;
+	padding-right: 10px!important;
+	vertical-align: sub;
+}
+.contenedor{
+	width: 90%;
+	background-color: #4d4d4d;
+	margin: 0px 10px;
+}
+.habilidad{
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: white;
+}
+.html{
+	width: 90%;
+	background-color: white;
+}
+.css{
+	width: 80%;
+	background-color: white;
+}
+.js{
+	width: 50%;
+	background-color: white;
+}
+.jquery{
+	width: 30%;
+	background-color: white;
+}
+.web {
+	width: 80%;
+	background-color: white;
+}
+.gra{
+	width: 10%;
+	background-color: white;
+}
+.icono2{
+	padding: 18px 10px;
+}
+.nombre-div{
+	padding: 86px 0px 60px 55px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.nombre-div h1{
+	margin-bottom: 10px;
+}
+.caja2{
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+.p2{
+	font-size: 10px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.icono3{
+	vertical-align: bottom;
+	font-size: 21px!important;
+	color: #4d4d4d;
+}
+.p3{
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+}
+.p3 span{
+	color: #ff9b00; padding-left: 20px;
+}
